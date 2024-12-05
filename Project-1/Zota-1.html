@@ -1,11 +1,78 @@
+<!--1.Creează o pagină web simplă cu un titlu și un paragraf.
+2.Adaugă o listă neordonată cu cel puțin 3 elemente.
+3.Construiește o tabelă simplă cu cel puțin 2 rânduri și 2 coloane.
+4.Realizează un formular cu cel puțin 2 câmpuri de text și un buton de submit.
+5.Publică structura paginii web create pe GitHub folosind Git. 
+6.Adaugă o imagine pe pagina web și asigură-te că aceasta are un atribut alt adecvat.
+7.Integrează un link către o altă pagină web sau către un fișier local.
+8.Înglobează un videoclip YouTube pe pagina ta web folosind un iframe.
+9.Inserează câteva comentarii în codul HTML pentru a explica diferitele secțiuni ale paginii.
+10.Experimentează cu stilurile inline pentru a formata și a stiliza un element de pe pagină.-->
 <!DOCTYPE html>
-<html lang="ro">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Zota</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+    <p>Web Development </p>
+    <br>
+<!--crearea a 3 liste neordonate-->
+<ul>Structura paginii - HTML (HyperText Markup Language)</ul>
+<ul>Stilizare și design - CSS (Cascading Style Sheets)</ul>
+<ul>Funcționalitate și interactivitate - JavaScript (JS)</ul>
+<br>
+<h4>Ce sunt aceste 3 limbaje ?</h4>
+<!--crearea si adaugarea de date in tabel-->
+<table>
+    <tr>
+        <th>HTML</th>
+        <th>CSS</th>
+        <th>JavaScript</th>
+    </tr>
+    <tr>
+        <td>Structura paginii web</td>
+        <td>Stilizarea și designul</td>
+        <td>Interactivitatea și funcționalitatea</td>
+    </tr>
+    <tr>
+        <td>Taguri</td>
+        <td>Culori, fonturi, layout</td>
+        <td>Validarea formularelor</td>
+    </tr>
+    <tr>
+        <td>Construiește baza site-ului</td>
+        <td>Face site-ul atractiv</td>
+        <td>Adaugă animații și logica</td>
+    </tr>
+</table>
+<!--Crearea unui formular-->
+<h2>Înscriere la Cursul de Web Development</h2>
+<img src="web.jpg" alt="O imagine reprezentând concepte de web development">
+    <form action="/submit" method="post">
+        <label for="name">Nume:</label><br>
+        <input type="text" id="name" name="name" placeholder="Introdu numele tău" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Introdu adresa ta de email" required><br><br>
+        <button type="submit">Înscrie-te</button>
+    </form>
+    <!--vizitarea pe un alt link-->
+    <h2>Vizitează un alt site</h2>
+    <p>
+        Pentru mai multe informații, vizitează 
+        <a href="https://zota.team/" >Zota-Team</a>.
+    </p>
+    <!--Iplementarea unui videoclip-->
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/HVjjoMvutj4" 
+        title="Tutorial Web Development"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+</iframe>
+
+    </body>
 </html>
